@@ -4,7 +4,7 @@ import mysql.connector
 conn = mysql.connector.connect(
     host="localhost",
     user="root",           # your MySQL username
-    password="c2c0909",    # the password you set during MySQL install
+    password="_____",    # the password you set during MySQL install
     database="banking_app"
 )
 cursor = conn.cursor()
